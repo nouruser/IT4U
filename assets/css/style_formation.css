@@ -1,0 +1,18 @@
+
+#popupForm{
+    transform : translate(-200%, -200%) ;
+    transition : top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+    }
+#popupForm.active{
+    /* top : 40%; */
+    opacity : 1;
+    transform : translate(0%, -25%) scale(1);
+    transition : top 0ms ease-in-out 0ms,  opacity 200ms ease-in-out 0ms,transform 200ms ease-in-out 0ms;
+    }
+.position-number{display: inline-block; justify-content: center; width: 50%;}
+.dist-bottom{margin-bottom: 20px;}
+.loin-droit{margin-left: 560px;}
+.loin-droit-btn{margin-left: 470px;}
+.padding-btn{padding: 10px 30px;}
+
+
